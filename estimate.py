@@ -4,13 +4,12 @@ import random
 
 def wallis(n):
     {
-        p=1
-        for i in range(1,n+1):
-            
-                pi=float((4*i*i) / (4*i*i - 1))
-                p=p*pi
-            
-        return p*2
+        pi=1
+    for i in range(1,n+1):
+        v=float((4*i*i)/(4*i*i-1))
+        pi=pi*v
+    return pi*2
+
     }
 
 def monte_carlo(j):
