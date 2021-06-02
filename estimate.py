@@ -4,11 +4,11 @@ import random
 
 def wallis(n):
     {
-        pi=1
-    for i in range(1,n+1):
-        v=float((4*i*i)/(4*i*i-1))
-        pi=pi*v
-    return pi*2
+        pi=1.0
+        for i in range(1,n+1):
+            v=float((4*i*i)/(4*i*i-1))
+            pi=pi*v
+        return pi*2
 
     }
 
