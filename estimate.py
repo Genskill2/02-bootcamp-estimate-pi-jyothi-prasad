@@ -2,15 +2,15 @@ import math
 import unittest
 import random
 
-def wallis(i):
+def wallis(n):
     {
         p=1
-        for in range(1,i+1):
+        for i in range(1,n+1):
             
-                pi=(2*4*i**2) / (4*i**2 - 1)
+                pi=(4*i**2) / (4*i**2 - 1)
                 p=p*pi
             
-        return p
+        return p*2
     }
 
 def monte_carlo(j):
